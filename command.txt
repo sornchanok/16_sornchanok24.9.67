@@ -1,0 +1,27 @@
+docker -v
+docker run hello-world
+docker ps --all
+docker run busybox ls
+docker busybox echo 'hello world in docker'
+docker exec becdc58ec9f8
+docker exec becdc58ec9f8 ls
+docker exec -it becdc58ec9f8 sh
+docker exec -it becdc58ec9f8 bash
+docker stop becdc58ec9f8
+docker rm becdc58ec9f8 
+docker run -p 80:80 nginx
+docker run -d -p 7800:80 nginx
+docker run busybox ping google.com
+docker stop 09670cdfe359
+docker pull busybox
+docker create busybox ping google.com
+docker start 8c0db571fd25715b162ab3a75f3b0b59318ff8686356c8098e30b34849704e08
+docker start
+docker stop 8c0db571fd25715b162ab3a75f3b0b59318ff8686356c8098e30b34849704e08
+docker system prune
+docker run -p 8800:80 nginx
+docker info
+docker images rm hello-world
+docker rm images busybox
+docker system df
+docker images
